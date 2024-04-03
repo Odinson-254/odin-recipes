@@ -7,11 +7,14 @@ body {
 
 h1 {
     color: #333;
+    text-align: center;
+    margin-top: 20px;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
 }
 
 li {
@@ -25,25 +28,5 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-}
-
-h2 {
-    color: #333;
-    margin-top: 30px;
-}
-
-p, ol, ul {
-    color: #555;
-    line-height: 1.6;
-}
-
-ol, ul {
-    padding-left: 20px;
+    color: red;
 }
